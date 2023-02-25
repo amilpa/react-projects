@@ -41,8 +41,7 @@ body{
 }
 
 .answer-buttons button:hover{
-   background-color: #6bbbff;
-   color: black;
+   background-color: #565d7d;
 }
 
 .question-section{
