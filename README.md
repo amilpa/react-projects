@@ -7,8 +7,7 @@ Simple React Beginer level projects
 
 Reference - https://contactmentor.com/best-react-projects-for-beginners-easy/
 
-# Currently present components
-
+## Currently present components
 <br>
 1.Counter
 <br>
