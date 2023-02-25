@@ -1,5 +1,5 @@
 
-# Simple React Beginner projects
+# Simple react beginner projects
 
 <br>
 <br>
