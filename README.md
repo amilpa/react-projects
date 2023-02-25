@@ -19,3 +19,5 @@ Reference - https://contactmentor.com/best-react-projects-for-beginners-easy/
 5.Quiz app
 <br>
 6.Navbar
+<br>
+7.Authentication component using Auth0
