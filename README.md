@@ -21,3 +21,5 @@ Reference - https://contactmentor.com/best-react-projects-for-beginners-easy/
 6.Navbar
 <br>
 7.Authentication component using Auth0
+<br>
+8.Todo app
