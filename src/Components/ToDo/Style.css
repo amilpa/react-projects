@@ -23,13 +23,13 @@ body{
 	color: white;
 	background-color: #af7eeb;
 	padding: 10px 0px;
-	box-shadow: 0px 0px 20px hsl(226, 8%, 78%);
+	box-shadow: 5px 5px 20px hsl(226, 8%, 88%);
 }
 
 .main{
 	width: 100%;
 	background-color: #fff;
-	box-shadow: 0px 0px 20px hsl(226, 8%, 78%);
+	box-shadow: 5px 5px 20px hsl(226, 8%, 88%);
 }
 
 .form{
