@@ -23,3 +23,5 @@ Reference - https://contactmentor.com/best-react-projects-for-beginners-easy/
 7.Authentication component using Auth0
 <br>
 8.Todo app
+<br>
+9.Calculator
