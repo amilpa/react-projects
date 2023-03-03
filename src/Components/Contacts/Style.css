@@ -1,0 +1,58 @@
+
+body{
+	background-color: #eeeeee;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent{
+	display: flex;
+}
+
+.card{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: hsl(0, 0%, 95%);
+	width: 300px;
+	margin: auto;
+	border-radius: 10px;
+	margin-top: 20px;
+	box-shadow: 0px 0px 15px hsl(0, 0%, 69%);
+	background-image: url('https://img.freepik.com/free-vector/nature-background-with-golden-foil_52683-46949.jpg?w=360');
+}
+
+.card img{
+	width: 200px;
+	height: 200px;
+	object-fit: contain;
+	object-position: center;
+	border-radius: 150px;
+	margin: 3%;
+	margin-bottom: 20px;
+}
+
+.content{
+	background-color: hsl(0, 0%, 95%);
+	width: 100%;
+}
+
+.content h2{
+	font-size: 1.4rem;
+}
+
+.content p{
+	font-size: 1.2rem;
+	white-space: nowrap;
+	overflow: hidden;
+	max-width: 300px;
+	border-left:1em solid transparent;
+	border-right:1em solid transparent;
+	text-overflow: ellipsis;
+
+}
+
+.content p:last-child{
+	margin-bottom: 40px;
+}
+

@@ -25,3 +25,5 @@ Reference - https://contactmentor.com/best-react-projects-for-beginners-easy/
 8.Todo app
 <br>
 9.Calculator
+<br>
+10.Contact list
