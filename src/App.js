@@ -1,14 +1,14 @@
 
 import './App.css'
 
-import CalculatorMain from './Components/Calculator/CalculatorMain';
+import ContactMain from './Components/Contacts/ContactMain';
 
 
 function App() {
 
 	return(
 		<div className='App'>
-			<CalculatorMain/>
+			<ContactMain />
 	 	</div>
 	)
 }
