@@ -1,14 +1,13 @@
 
 import './App.css'
 
-import ContactMain from './Components/Contacts/ContactMain';
-
+import Weather from './Components/Weather/Weather';
 
 function App() {
 
 	return(
 		<div className='App'>
-			<ContactMain />
+			<Weather />
 	 	</div>
 	)
 }
