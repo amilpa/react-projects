@@ -1,0 +1,147 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: linear-gradient(135deg , #fcbfc1 , #a075c7);
+	background-attachment: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.content{
+	background-color: #fff;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%);
+	width: 500px;
+	text-align: center;
+	padding: 1% 0;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.content h1{
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.form{
+	margin: 4% 0;
+	display: flex;
+	padding-left: 10%;
+}
+
+.form input{
+	width:80%;
+	font-size: 1.2rem;
+	padding: 5px 0px;
+	
+	border-radius: 10px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	outline: none;
+	padding-left: 10px;
+}
+
+.form input:focus{
+	outline: 1px solid black;
+}
+
+.form button{
+	padding: 0px 10px;
+	border-radius: 0;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+	outline: none;
+	/* border:  1px solid rgba(255, 255, 255, 0.8); */
+	border: none;
+
+	background-color: #ffba74;
+	color: white;
+}
+
+.list{
+	padding: 0px 40px;
+}
+
+.list div{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	font-size: 1.2rem;
+
+	margin: 5px 0px;
+
+}
+
+
+.list .item{
+	border: 2px solid rgba(0, 0, 0, 0.6);
+	border-radius: 10px;
+	margin: 10px 0px;
+	padding: 0px 20px;
+
+	transition: 0.4s;
+}
+
+
+.list .item.complete{
+	background-color: limegreen;
+	color: white;
+}
+
+
+.list .title{
+	padding: 0px 20px;
+}
+
+.list .title .quantity{
+	padding: 0px 8px;
+}
+
+.list .listparent{
+	display: block;
+}
+
+.list .buttons{
+	display: flex;
+	gap: 10px;
+}
+
+
+.list .buttons span{
+	width: 30px;
+}
+
+.list .buttons button{
+	flex: 1;
+	padding: 0px 5px;
+
+	background-color: #ffba74;
+	color: white;
+
+	border: none;
+	outline: none;
+}
+
+.list div .checked{
+	color: grey;
+	background-color: #fff;
+
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+
+	transition: 0.4s;
+}
+
+.list div .checked.complete{
+	background-color: limegreen;	
+	color: white;
+}
