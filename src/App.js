@@ -1,13 +1,13 @@
 
 import './App.css'
 
-import Weather from './Components/Weather/Weather';
+import ShoppingMain from './Components/Shopping/ShoppingMain';
 
 function App() {
 
 	return(
 		<div className='App'>
-			<Weather />
+			<ShoppingMain />
 	 	</div>
 	)
 }

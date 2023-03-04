@@ -29,3 +29,5 @@ Reference - https://contactmentor.com/best-react-projects-for-beginners-easy/
 10.Contact list
 <br>
 11.Weather app(mobile view only)
+<br>
+12.Shopping list app
