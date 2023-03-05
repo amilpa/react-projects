@@ -3,8 +3,7 @@ import React,{ useState } from 'react'
 import './Style.css'
 
 const api = {
-	key:***REMOVED***,
-	base:***REMOVED***
+	//api keys
 }
 
 const Weather = () => {
