@@ -8,7 +8,12 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .main-content{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
 	background-color: #392fb8;
 	display: flex;
 	justify-content: space-between;
@@ -20,13 +25,12 @@
 	color: white;
 }
 
-.main-content ul{
+.main-content .ul{
 	display: flex;
 	align-items: center;
 }
 
-.main-content ul li{
-	display: inline-block;
+.main-content .ul li{
 	font-size: 1.1rem;
 	/* margin-left: 30px; */
 	padding: 2px 15px;
@@ -34,13 +38,15 @@
 	margin-left: 20px;
 }
 
-.main-content ul li a{
+.main-content .ul li a{
 	color: white;
 }
 
 
-.main-content ul button{
+.main-content .ul button{
 	margin-left: 20px;
+	margin-top: 0px;
+	width: auto;
 	background-color: hsl(196, 96%, 45%);
 	padding: 4px 25px;
 	color: white;
@@ -50,11 +56,11 @@
 	transition: 0.4s;
 }
 
-.main-content ul li:hover{
+.main-content .ul li:hover{
 	background-color: hsl(244, 59%, 65%);
 }
 
-.main-content ul button:hover{
+.main-content .ul button:hover{
 	background-color: hsl(196, 96%, 55%);
 }
 
@@ -78,6 +84,8 @@
 		display: block;
 		width: 30px;
 		height: 28px;
+		padding: 0;
+		margin: 0;
 
 		outline: none;
 		border: none;
@@ -114,10 +122,13 @@
 		display: block;
 		height: 100vh;
 		width: 100%;
+		top: 0;
+		text-align: center;
 		z-index: 0;
 		background-color: #5b5df3;
 		transition: 0.4s;
 		left: 100%;
+		padding-top: 80px;
 	}
 
 	.mobile-nav-content.is-active{
@@ -139,15 +150,13 @@
 		background-color: hsl(196, 96%, 45%);
 		padding: 15px;
 		color: white;
-		position: relative;
-		left: 5%;
 		margin-top: 15px;
 		width: 90%;
 		outline: none;
 		border: 2px solid grey;
 	}
 
-	.main-content ul{
+	.main-content .ul{
 		display: none;
 	}
 }

@@ -30,8 +30,8 @@ const Temperature = () => {
 		<div className={`temperature-display ${ Feel }`}>{ Temperature }*C</div>
 		</div>
 		<div className="button-container">
-		<button onClick={increaseTemperature}>+</button>
-		<button onClick={decreaseTemperature}>-</button>
+		<button onClick={increaseTemperature} className="temp-button">+</button>
+		<button onClick={decreaseTemperature} className="temp-button">-</button>
 		</div>
 		</div>
 	);

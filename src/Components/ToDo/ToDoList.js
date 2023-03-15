@@ -31,7 +31,7 @@ const ToDoList = ( { Todo , setTodo , editTodo , setEditTodo } ) => {
 			<ul className='list'>
 				{Todo.map((todo) => {
 					return <li key = { todo.id } className={ todo.completed ? 'complete' : ''}>{ todo.task }
-						<div className='buttons'>
+						<div className='buttons-todo'>
 							<button onClick={() => handleComplete(todo)}><FontAwesomeIcon icon={ faSquareCheck }/></button>
 							<button onClick={() => handleEdit(todo) }><FontAwesomeIcon icon={ faEdit } /></button>
 							<button onClick={ () => handleDelete(todo) }><FontAwesomeIcon icon={ faTrashCan }/></button>

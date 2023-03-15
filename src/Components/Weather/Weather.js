@@ -2,21 +2,15 @@ import React,{ useState } from 'react'
 
 import './Style.css'
 
-const api = {
-	key:***REMOVED***,
-	base:***REMOVED***
-}
-
 const Weather = () => {
 
 	const [query , setQuery ] = useState('');
 	const [ weather, setWeather ] = useState('');
 
-
 	const Search = (evt) => {
 		if(evt.key==="Enter")
 		{
-			fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
+			fetch(`${process.env.REACT_APP_BASE}weather?q=${query}&units=metric&APPID=${process.env.REACT_APP_KEY}`)
 				.then(res => res.json())
 				.then(result => {
 				setWeather(result)

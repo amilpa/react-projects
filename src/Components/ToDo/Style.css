@@ -1,10 +1,11 @@
 
-body{
-	background-color: #e3e9ff;
-	font-family: Arial, Helvetica, sans-serif;
-}
+/* body{ */
+/* 	background-color: #e3e9ff; */
+/* 	font-family: Arial, Helvetica, sans-serif; */
+/* } */
 
-.parent-div
+
+.parent-div-todo
 {
 	display: flex;
 	flex-direction: column;
@@ -14,6 +15,17 @@ body{
 	left: 50%;
 	transform: translate(-50%);
 	width: 400px;
+	padding-top: 15px;
+
+	background-color: #fff;
+	width: 500px;
+	padding: 0.5rem 1rem;
+	border-radius: 20px;
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	transform: translate(-50%,0%);
+	box-shadow: 0px 20px 20px rgba(0,0,0,0.2);
 }
 
 .header{
@@ -23,19 +35,20 @@ body{
 	color: white;
 	background-color: #af7eeb;
 	padding: 10px 0px;
-	box-shadow: 5px 5px 20px hsl(226, 8%, 88%);
+	border-radius: 20px;
+	margin-top: 10px;
 }
 
 .main{
 	width: 100%;
 	background-color: #fff;
-	box-shadow: 5px 5px 20px hsl(226, 8%, 88%);
 }
 
 .form{
 	width: 100%;
-	padding-top: 20px;
+	padding-top: 0px;
 	text-align: center;
+	padding-bottom: 20px;
 }
 
 .form input , .form button{
@@ -46,7 +59,7 @@ body{
 }
 
 .form input{
-	width: 60%;
+	width: 70%;
 	padding: 10px;
 	border-right: none;
 	color: hsl(228, 25%, 42%);
@@ -71,15 +84,18 @@ body{
 
 .list{
 	list-style-type: none;
-	width: 100%;
+	width: 95%;
 	padding-left: 0px;
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .list li{
-	width: 80%;
+	width: 90%;
 	text-align: center;
 	border: 2px solid  hsl(228, 25%, 62%);
 	padding: 10px 0px;
@@ -103,17 +119,20 @@ body{
 	background-color: limegreen;
 }
 
-.list .complete .buttons button{
+.list .complete .buttons-todo button{
 	color: white;
 }
 
-.list li .buttons button{
+.list li .buttons-todo button{
 	background: none;
 	border: none;
-	margin-left: 5px;
+	margin-left: 20px;
 	color:  hsl(228, 25%, 42%);
+	width: auto;
+	padding: 0;
+	margin-top: 0;
 }
 
-.list li .buttons button:last-child{
-	margin-right: 5px;
+.list li .buttons-todo button:last-child{
+	margin-right: 10px;
 }

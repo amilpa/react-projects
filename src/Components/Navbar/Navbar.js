@@ -40,7 +40,7 @@ const Navbar = () => {
 				<button className={ navButtonClicked ? ( 'hamburger is-active' ) : ('hamburger')} onClick= {() => setNavButtonClicked(!navButtonClicked) }>
 					<div className='bar'></div>
 				</button>
-				<ul>
+				<ul className='ul'>
 						{ navBarItems.map((value) => {
 							return <li><a href={ value.link }>{ value.Name }</a></li>
 						})}	

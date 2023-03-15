@@ -16,7 +16,7 @@ const ToDoMain = () => {
 
 
 	return (
-		<div className='parent-div'>
+		<div className='parent-div-todo'>
 			<header className='header'>
 				Todo list
 			</header>
