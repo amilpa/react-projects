@@ -31,4 +31,6 @@ Reference - https://contactmentor.com/best-react-projects-for-beginners-easy/
 11.Weather app(mobile view only)
 <br>
 12.Shopping list app
+<br>
+<br>
 ![Screenshot (5)](https://user-images.githubusercontent.com/117823429/225607944-3d465bbb-6a61-4ae5-b26b-e2ef1049156b.png)
