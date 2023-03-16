@@ -33,18 +33,18 @@
 	margin-bottom: 20px;
 }
 
-.content{
+.content-contact{
 	background-color: hsl(0, 0%, 95%);
 	width: 100%;
 	border-bottom-right-radius: 10px;
 	border-bottom-left-radius: 10px;
 }
 
-.content h2{
+.content-contact h2{
 	font-size: 1.4rem;
 }
 
-.content p{
+.content-contact p{
 	font-size: 1.2rem;
 	white-space: nowrap;
 	overflow: hidden;
@@ -55,7 +55,7 @@
 
 }
 
-.content p:last-child{
+.content-contact p:last-child{
 	margin-bottom: 20px;
 }
 

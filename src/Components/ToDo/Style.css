@@ -44,21 +44,21 @@
 	background-color: #fff;
 }
 
-.form{
+.form-todo{
 	width: 100%;
 	padding-top: 0px;
 	text-align: center;
 	padding-bottom: 20px;
 }
 
-.form input , .form button{
+.form-todo input , .form-todo button{
 	font-size: 1rem;
 	border: 1px solid black;
 	outline: none;
 	appearance: none;
 }
 
-.form input{
+.form-todo input{
 	width: 70%;
 	padding: 10px;
 	border-right: none;
@@ -67,12 +67,12 @@
 	/* border-bottom-left-radius: 5px ; */
 }
 
-.form input:focus{
+.form-todo input:focus{
 	outline: 2px solid black;
 	border: none;
 }
 
-.form button{
+.form-todo button{
 	background-color: #af7eeb;
 	padding: 10px 20px;
 	color: white;
@@ -82,7 +82,7 @@
 	/* border-bottom-right-radius: 5px ; */
 }
 
-.list{
+.list-todo{
 	list-style-type: none;
 	width: 95%;
 	padding-left: 0px;
@@ -94,7 +94,7 @@
 	margin-right: auto;
 }
 
-.list li{
+.list-todo li{
 	width: 90%;
 	text-align: center;
 	border: 2px solid  hsl(228, 25%, 62%);
@@ -114,16 +114,16 @@
 	transition: 0.2s;
 }
 
-.list .complete{
+.list-todo .complete{
 	color: white;
 	background-color: limegreen;
 }
 
-.list .complete .buttons-todo button{
+.list-todo .complete .buttons-todo button{
 	color: white;
 }
 
-.list li .buttons-todo button{
+.list-todo li .buttons-todo button{
 	background: none;
 	border: none;
 	margin-left: 20px;
@@ -133,6 +133,6 @@
 	margin-top: 0;
 }
 
-.list li .buttons-todo button:last-child{
+.list-todo li .buttons-todo button:last-child{
 	margin-right: 10px;
 }

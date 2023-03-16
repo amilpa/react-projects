@@ -5,8 +5,8 @@ body{
 }
 
 .parent-div{
-	background-color: #fff;
-	width: 500px;
+	background-color: #f3f5f8;
+	width: auto;
 	padding: 0.5rem 1rem;
 	border-radius: 20px;
 	position: absolute;
@@ -16,28 +16,65 @@ body{
 	box-shadow: 0px 20px 20px rgba(0,0,0,0.2);
 }
 
-.parent-div ol{
+.parent-div .list-comp{
 	display: flex;
 	flex-direction: column;
 	font-size: 1.2rem;
+	font-weight: 600;
+
+	display: grid;
+	grid-template-rows: 150px 150px 150px; 
+	grid-template-columns: 250px 250px 250px 250px;
+	gap: 10px;
 }
 
-.parent-div ol li{
+.parent-div .list-comp a{
 	padding: 5px 0px;
+	padding-left: 10px;
 	transition: 0.2s;
-	border: 1px solid black;
-	border-radius: 20px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 5px;
 	margin: 6px 0px;
+	text-align: left;
+
+	background-color: rgba(255,255,255,0.8);
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+
 }
 
-.parent-div ol li:hover{
+.parent-div .list-comp a:hover{
 	background-color: #ebebeb;
 }
 
-.parent-div ol li a{
+.parent-div .list-comp a{
 	text-decoration: none;
-	color: #333;
+	color: #587D71;
 	width: 100%;
 }
 
+.parent-div .list-comp a p{
+	color: rgba(0,0,0,0.7);
+	font-size: 1rem;
+	margin: auto;
+	font-weight: 500;
+	margin-top: 10px;
+}
 
+@media screen and (max-width:768px)
+{
+	.parent-div{
+		height: auto;
+		width: 100vw;
+		position: relative;
+		top: 0;
+		left: 0;
+		transform: translate(0,0);
+	}
+	.parent-div .list-comp{
+		grid-template-columns: 200px;
+		grid-template-rows: repeat(11 , 250px);
+
+		justify-content: center;
+	}
+
+}

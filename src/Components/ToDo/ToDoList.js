@@ -28,7 +28,7 @@ const ToDoList = ( { Todo , setTodo , editTodo , setEditTodo } ) => {
 
 	return (
 		<div>
-			<ul className='list'>
+			<ul className='list-todo'>
 				{Todo.map((todo) => {
 					return <li key = { todo.id } className={ todo.completed ? 'complete' : ''}>{ todo.task }
 						<div className='buttons-todo'>

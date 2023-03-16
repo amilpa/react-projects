@@ -44,7 +44,7 @@ const Form = ({ input , setInput , Todo , setTodo , editTodo , setEditTodo }) =>
 	}
 
 	return (
-		<form onSubmit = { handleTodoSubmit } className='form'>
+		<form onSubmit = { handleTodoSubmit } className='form-todo'>
 			<input type="text" placeholder='Enter entry' onChange={ handleTodoChange } value= { input } required ref={inputRef}/>
 			<button type='submit'>{ editTodo ? "Ok" : "Add"}</button>
 		</form>

@@ -10,17 +10,20 @@
 	padding: 1% 0;
 	border-radius: 10px;
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-	padding: 10px 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .content h1{
 	color: rgba(0, 0, 0, 0.5);
+	margin-top: 2.5%;
 }
 
 .form{
-	margin: 4% 0;
+	margin: 5% 0;
 	display: flex;
-	padding-left: 5%;
+	display: flex;
+	justify-content: center;
 }
 
 .form input{
@@ -43,6 +46,7 @@
 
 .form button{
 	padding: 0px 10px;
+	width: auto;
 	border-radius: 0;
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
@@ -61,6 +65,7 @@
 .list{
 	padding: 0px 40px;
 	margin: 0 auto;
+	padding-bottom: 10px;
 }
 
 .list div{
@@ -77,10 +82,10 @@
 .list .item{
 	border: 2px solid rgba(0, 0, 0, 0.6);
 	border-radius: 10px;
-	margin: 10px 0px;
 	padding: 0px 20px;
 
 	transition: 0.4s;
+	margin-top: 10px;
 }
 
 
@@ -113,7 +118,9 @@
 
 
 .list .buttons span{
-	width: 30px;
+	display: inline-block;
+	width: 25px;
+	text-align: center;
 	color: #333;
 }
 
@@ -128,9 +135,6 @@
 	outline: none;
 }
 
-.list .buttons span{
-	width: auto;
-}
 
 .list div .checked{
 	color: grey;
